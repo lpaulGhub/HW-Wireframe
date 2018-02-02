@@ -1,7 +1,13 @@
-html {
+* {
   box-sizing: border-box;
+  /* text-align: center; */
+  /* align-content: center; */
+}
+
+html {
+  /* box-sizing: border-box;
   text-align: center;
-  align-content: center;
+  align-content: center; */
 }
 
 header {
@@ -22,29 +28,24 @@ body {
   align-content: center;
 }
 
-#nav {
-  padding: 20px;
-  margin-bottom: 20px;
-  color: #777;
-  background: #ebebeb;
-  text-align: center;
-}
-
 section {
   width: 495px;
 }
 
-#aside {
+
+article {
+  background-color: #777;
+  color: white; 
+  height: 240px;
+  margin-bottom: 10px;
+}
+
+p {
   background: #ebebeb;
   color: #777;
-  text-align: center;
-  float: right;
-  width: 35%;
-  padding: 20px;
-  height: 300px;
-  padding: 20px;
-  margin-left: 10px;
-  margin-bottom: 20px;
+  padding: 10px;
+  height: 90px;
+  margin: 10px;
 }
 
 footer {
@@ -53,4 +54,44 @@ footer {
   background: #ebebeb;
   text-align: center;
   clear: both;
+}
+
+.heading {
+  background: #ebebeb;
+  color: #777;
+  padding: 20px;
+  height: 90px;
+  margin: 10px;
+}
+
+.nav {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #777;
+  background: #ebebeb;
+  text-align: center;
+}
+
+.left {
+  color: #333; 
+  background: #ebebeb;
+  text-align: center;
+  float: left;
+  width: 60%;
+  height: 300px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.aside {
+  background: #ebebeb;
+  color: #777;
+  text-align: center;
+  float: right;
+  width: 35%;
+  /* padding: 20px; */
+  height: 300px;
+  padding: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
 }
